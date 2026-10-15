@@ -1,0 +1,80 @@
+/* Reset khoảng cách mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1. Đổi màu nền của trang web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Màu nền xanh nhạt dịu mắt */
+    color: #333333;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* 2. Căn giữa tiêu đề <h1> */
+h1 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+/* Đoạn văn mô tả */
+.bio {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #475569;
+}
+
+/* 3. Định dạng danh sách sở thích với các màu sắc khác nhau */
+.hobbies-list {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.hobbies-list li {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hobbies-list .hobby-1 {
+    color: #e11d48; /* Màu đỏ hồng */
+}
+
+.hobbies-list .hobby-2 {
+    color: #2563eb; /* Màu xanh dương */
+}
+
+.hobbies-list .hobby-3 {
+    color: #16a34a; /* Màu xanh lá */
+}
+
+/* 4. Định dạng nút bấm và hiệu ứng hover */
+.my-btn {
+    background-color: #0d9488;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Tạo hiệu ứng mượt mà khi hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect cho nút bấm */
+.my-btn:hover {
+    background-color: #0f766e;
+    transform: translateY(-2px); /* Nút hơi nổi lên khi di chuột */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
